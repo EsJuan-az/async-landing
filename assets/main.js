@@ -43,7 +43,9 @@ const main = async () => {
                 break;
             }
             insertPoketemplate(pkmResult.value);
+            pokeList.classList.remove("opacity-0")
         }
+        pkm
     } catch {
 
     }
